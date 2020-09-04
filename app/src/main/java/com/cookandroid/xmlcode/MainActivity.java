@@ -2,6 +2,8 @@ package com.cookandroid.xmlcode;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -31,6 +33,13 @@ public class MainActivity extends AppCompatActivity {
         TextView textView3 = (TextView)findViewById(R.id.textView3);
         TextView textView4 = (TextView)findViewById(R.id.textView4);
         TextView textView5 = (TextView)findViewById(R.id.textView5);
+
+        textView1.setText("안녕하세요?");
+        textView1.setTextColor(Color.RED);
+        textView2.setTextSize(30);
+        textView2.setTypeface(Typeface.SANS_SERIF, Typeface.BOLD_ITALIC);
+        textView3.setText("가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하가나다라마바사아자차카타파하");
+        textView3.setSingleLine();
 
     }
 
