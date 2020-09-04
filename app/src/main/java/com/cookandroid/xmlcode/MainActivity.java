@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
 
     TextView tv;
     EditText et;
-    Button bt;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,14 +20,11 @@ public class MainActivity extends AppCompatActivity {
 
         tv = (TextView)findViewById(R.id.textView);
         et = (EditText)findViewById(R.id.editText);
-        bt = (Button)findViewById(R.id.button1);
-
-        bt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "전송되었습니다", Toast.LENGTH_SHORT).show();
-            }
-        });
+        Button button1 = (Button)findViewById(R.id.button1);
+        Button button2 = (Button)findViewById(R.id.button2);
+        Button button3 = (Button)findViewById(R.id.button3);
+        Button button4 = (Button)findViewById(R.id.button4);
+        Button button5 = (Button)findViewById(R.id.button5);
 
     }
 

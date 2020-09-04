@@ -19,13 +19,37 @@
         android:hint="여기에 채우세요"
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
-        android:autofillHints="홍길동"></EditText>
+        android:autofillHints="홍길동" />
 
     <Button
         android:id="@+id/button1"
-        android:text="확인"
+        android:text="버튼1"
         android:layout_margin="20dp"
         android:layout_height="wrap_content"
         android:layout_width="fill_parent" />
 
-</LinearLayout>
+    <Button
+        android:id="@+id/button2"
+        android:text="버튼2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+    <Button
+        android:id="@+id/button3"
+        android:text="버튼3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"/>
+    <Button
+        android:id="@+id/button4"
+        android:text="버튼4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/button5"
+        android:text="버튼5"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        ></Button>
+    ></LinearLayout>

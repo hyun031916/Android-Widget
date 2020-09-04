@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">xmlCode</string>
-    <string name="button1"></string>
     <string name="textView"></string>
     <string name="editText"></string>
+    <string name="button1"></string>
+    <string name="button2"></string>
+    <string name="button3"></string>
+    <string name="button4"></string>
+    <string name="button5"></string>
 </resources>
