@@ -1,16 +1,20 @@
 <resources>
     <string name="app_name">xmlCode</string>
-    <string name="textView"></string>
-    <string name="editText"></string>
-    <string name="button1">버튼 1</string>
-    <string name="button2">버튼 2</string>
-    <string name="button3">버튼 3</string>
-    <string name="button4">버튼 4</string>
-    <string name="button5">버튼 5</string>
-    <string name="textView1"></string>
-    <string name="textView2"></string>
-    <string name="textView3"></string>
-    <string name="textView4"></string>
-    <string name="textView5"></string>
+<!--    <string name="textView"></string>-->
+<!--    <string name="editText"></string>-->
+<!--    <string name="button1">버튼 1</string>-->
+<!--    <string name="button2">버튼 2</string>-->
+<!--    <string name="button3">버튼 3</string>-->
+<!--    <string name="button4">버튼 4</string>-->
+<!--    <string name="button5">버튼 5</string>-->
+<!--    <string name="textView1"></string>-->
+<!--    <string name="textView2"></string>-->
+<!--    <string name="textView3"></string>-->
+<!--    <string name="textView4"></string>-->
+<!--    <string name="textView5"></string>-->
+    <string name="switch1"></string>
+    <string name="switch2"></string>
+    <string name="toggleBtn1"></string>
+    <string name="toggleBtn2"></string>
 
 </resources>
