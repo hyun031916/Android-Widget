@@ -20,11 +20,17 @@ public class MainActivity extends AppCompatActivity {
 
 //        tv = (TextView)findViewById(R.id.textView);
 //        et = (EditText)findViewById(R.id.editText);
-        Button button1 = (Button)findViewById(R.id.button1);
-        Button button2 = (Button)findViewById(R.id.button2);
-        Button button3 = (Button)findViewById(R.id.button3);
-        Button button4 = (Button)findViewById(R.id.button4);
+//        Button button1 = (Button)findViewById(R.id.button1);
+//        Button button2 = (Button)findViewById(R.id.button2);
+//        Button button3 = (Button)findViewById(R.id.button3);
+//        Button button4 = (Button)findViewById(R.id.button4);
 //        Button button5 = (Button)findViewById(R.id.button5);
+
+        TextView textView1 = (TextView)findViewById(R.id.textView1);
+        TextView textView2 = (TextView)findViewById(R.id.textView2);
+        TextView textView3 = (TextView)findViewById(R.id.textView3);
+        TextView textView4 = (TextView)findViewById(R.id.textView4);
+        TextView textView5 = (TextView)findViewById(R.id.textView5);
 
     }
 

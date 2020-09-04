@@ -7,4 +7,10 @@
     <string name="button3">버튼 3</string>
     <string name="button4">버튼 4</string>
     <string name="button5">버튼 5</string>
+    <string name="textView1"></string>
+    <string name="textView2"></string>
+    <string name="textView3"></string>
+    <string name="textView4"></string>
+    <string name="textView5"></string>
+
 </resources>
